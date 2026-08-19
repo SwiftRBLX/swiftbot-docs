@@ -1,13 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Swift",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#f6a92c",
+    "light": "#faf5b2",
+    "dark": "#ff6b00"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/logo/swift.png",
+    "dark": "/logo/swift.png"
+  },
   "navigation": {
     "pages": [
       {
@@ -31,17 +34,27 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "welcome",
+          "quickstart"
+        ]
+      }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/swift.png",
+    "dark": "/logo/swift.png",
+    "href": "https://swiftbot.mintlify.site"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gg/nZwKJxBCvS"
       }
     ],
     "primary": {
@@ -62,11 +75,19 @@
       "vscode"
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "background": {
+    "color": {
+      "dark": "#171717"
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "404 | Whoops!",
+      "description": "The page you are looking for does not exist."
     }
   }
 }

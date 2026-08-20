@@ -52,8 +52,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/swift.png",
-    "dark": "/logo/swift.png",
+    "light": "/logo/swiftlogoLight.png",
+    "dark": "/logo/swiftlogoLight.png",
     "href": "https://swiftbot.mintlify.site"
   },
   "navbar": {

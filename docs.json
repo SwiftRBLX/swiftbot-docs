@@ -39,8 +39,14 @@
       {
         "group": "Overview",
         "pages": [
-          "welcome",
-          "quickstart"
+          "welcome"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "setup",
+          "untitled-page-2"
         ]
       }
     ]

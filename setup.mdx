@@ -1,0 +1,44 @@
+---
+title: "Configuring Swift"
+description: "Learn how to configure Swift."
+---
+
+> This page outlines the essential configuration options to help you get started quickly. You can set your command prefix, manage disabled commands, configure permission roles through [**Permissions**](https://docs.duckybot.xyz/configuration/permissions), designate a configuration log channel, and reset your configuration when needed. Once you have invited Swift to your server, run the `/setup` command to begin configuring your server.
+
+<Warning>
+  All members with the **Manage Server** permission are authorized to use the `/setup` command.
+</Warning>
+
+## **Prefix**
+
+The **Prefix** determines how prefix-based commands are triggered in your server. You can change it on this page to fit your server’s style, or to prevent conflicts with other bot prefixes.
+
+## **Disabled Commands**
+
+This option allows you to disable specific Swift commands that you do not want to be available on your server.
+
+When entering commands, use the command name without the prefix or slash. For example, to disable `/ping`, enter `ping`. To disable multiple commands, separate each command with a comma, such as `ping, say`.
+
+## Command Blacklists
+
+This option allows you to blacklist specific channels or roles from interacting with Swift.
+
+## Permissions
+
+Configure permission roles to manage what each member can access.
+
+<Callout icon="lightbulb" color="#85c3f6">
+  For more detailed information on permissions, see [**Permissions**](https://docs.duckybot.xyz/configuration/permissions).
+</Callout>
+
+## **Configuration Log Channel**
+
+The **Configuration Log Channel** is the channel where Swift will send a message to when any changes are made to the server’s configuration using the `/setup` command.
+
+## **Wipe Configuration**
+
+This option allows you to completely **reset your server’s configuration**. This permanently removes all data associated with your server, including punishments, shifts, and other stored configuration data.
+
+<Danger>
+  Wiping your server’s configuration is **permanent** and cannot be reverted— therefore, only the **server owner** can use this option.
+</Danger>

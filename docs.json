@@ -39,14 +39,14 @@
       {
         "group": "Overview",
         "pages": [
-          "welcome"
+          "overview/welcome"
         ]
       },
       {
         "group": "Configuration",
         "pages": [
-          "setup",
-          "permissions"
+          "configuration/setup",
+          "configuration/permissions"
         ]
       }
     ]

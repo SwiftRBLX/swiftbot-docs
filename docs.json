@@ -48,6 +48,12 @@
           "configuration/setup",
           "configuration/permissions"
         ]
+      },
+      {
+        "group": "Modules",
+        "pages": [
+          "untitled-page"
+        ]
       }
     ]
   },

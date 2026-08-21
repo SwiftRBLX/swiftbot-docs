@@ -39,7 +39,7 @@
         "group": "Modules",
         "pages": [
           "modules/discord-moderation",
-          "untitled-page-2"
+          "modules/audit-logging"
         ]
       }
     ]

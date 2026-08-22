@@ -39,7 +39,8 @@
         "group": "Modules",
         "pages": [
           "modules/discord-moderation",
-          "modules/audit-logging"
+          "modules/audit-logging",
+          "untitled-page-2"
         ]
       }
     ]
